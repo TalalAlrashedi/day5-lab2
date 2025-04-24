@@ -1,0 +1,119 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.mainContnet {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(29, 101, 184);
+  color: rgb(255, 255, 255);
+  min-height: 60vh;
+}
+
+.mainContnet h1 {
+  padding-top: 5%;
+  font-size: 3rem;
+}
+
+#Topic {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  /* min-height: 70vh; */
+}
+
+#Topic h3 {
+  padding: 1%;
+  margin: 25% 10%;
+}
+
+#register {
+  display: flex;
+  padding: 3%;
+}
+#register input {
+  width: 20%;
+  padding: 1%;
+  border: none;
+  border-radius: 10px;
+}
+#register button {
+  padding: 1%;
+  border: none;
+  background-color: blue;
+  color: aliceblue;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3%;
+  justify-content: center;
+
+}
+
+.cards img{
+    width: 70%;
+    height: 30vh;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.7rem;
+    padding: 1%;
+}
+
+.tags button{
+
+    padding: 1%;
+    border: none;
+    margin: 1%;
+    border-radius: 50px;
+    
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+
+}
+
+.arrows p {
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.arrow{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  list-style: none;
+}
+
+nav ul li {
+  color: aliceblue;
+  text-decoration: none;
+}
